@@ -15,11 +15,11 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("TRADUCTOR.")
-st.subheader("Escucho lo que quieres traducir.")
+st.title("Asistente de Conversación para Viajeros en Situaciones de Emergencia")
+st.subheader("Transforma el traductor de voz básico en un asistente médico y de seguridad en tiempo real para turistas. La aplicación escuchará las frases clave del usuario en su idioma nativo cuando se encuentre en apuros en el extranjero (por ejemplo, al perder el pasaporte, requerir asistencia en una farmacia o reportar una emergencia) y traducirá instantáneamente la solicitud a la lengua local en formato de voz alta y clara, facilitando la comunicación rápida con autoridades o personal de salud sin barreras idiomáticas.")
 
 
-image = Image.open('3d152300d0885811aa6567e103d23927.jpg')
+image = Image.open('sirena.jpg')
 
 st.image(image,width=300)
 with st.sidebar:
